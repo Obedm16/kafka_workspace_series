@@ -29,3 +29,6 @@ try:
 
 except KeyboardInterrupt:
     print("🛑 Consumer is shutting down")
+
+finally:
+    consumer.close()
